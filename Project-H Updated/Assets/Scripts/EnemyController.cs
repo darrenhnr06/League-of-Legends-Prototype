@@ -57,7 +57,8 @@ public class EnemyController : MonoBehaviour
     {
         GetComponentInChildren<SkinnedMeshRenderer>().enabled = false;
         yield return new WaitForSeconds(0.5f);
-        this.gameObject.SetActive(false);
+        //this.gameObject.SetActive(false);
+        healthBar.transform.parent.parent.parent.gameObject.SetActive(false);
     }
 
     IEnumerator deactivateHitEffect(GameObject go)

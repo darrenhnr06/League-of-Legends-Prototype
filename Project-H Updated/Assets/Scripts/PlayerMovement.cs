@@ -96,36 +96,7 @@ public class PlayerMovement : MonoBehaviour
 
 
 
-        //for (int i = 0; i < enemies.Length; i++)
-        //{
-        //    if (enemies[i] != null)
-        //    {
-        //        if (Vector3.Distance(transform.position, enemies[i].gameObject.transform.position) <= gap)
-        //        {
-        //            target = enemies[i];
-
-        //            target.gameObject.transform.LookAt(transform.position);
-        //            target.gameObject.GetComponent<Animator>().Play("attack");
-
-        //            if(!run)
-        //            {
-        //                transform.LookAt(target.gameObject.transform.position);
-        //                animator.Play("Attack");
-        //            }
-        //        }
-        //        else
-        //        {
-        //            enemies[i].gameObject.GetComponent<Animator>().Play("idle");
-        //        }
-        //    }
-        //}
-
-        //if (isLevel1Cleared)
-        //{
-        //    return;
-        //}
-        //else
-        //{
+        
             for (int i = 0; i < levelOneEnemies.Count; i++)
             {
                 //Debug.Log("Level1");

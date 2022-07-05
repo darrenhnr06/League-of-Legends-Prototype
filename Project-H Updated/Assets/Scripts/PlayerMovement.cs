@@ -252,7 +252,7 @@ public class PlayerMovement : MonoBehaviour
         bullet.transform.position = bulletTransform.position;
         bullet.transform.rotation = bulletTransform.rotation;
         bullet.SetActive(true);
-        StartCoroutine(DeactivateBullet(bullet));
+        //StartCoroutine(DeactivateBullet(bullet));
     }
 
     IEnumerator DeactivateBullet(GameObject go)

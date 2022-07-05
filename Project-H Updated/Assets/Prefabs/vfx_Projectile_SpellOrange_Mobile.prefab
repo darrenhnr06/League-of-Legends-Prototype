@@ -14862,7 +14862,7 @@ GameObject:
   - component: {fileID: 3506146924412443351}
   - component: {fileID: 3651216758275919071}
   - component: {fileID: 3714583695897239767}
-  - component: {fileID: 5795984674561646900}
+  - component: {fileID: -2256191820179117901}
   m_Layer: 0
   m_Name: vfx_Projectile_SpellOrange_Mobile
   m_TagString: Bullet
@@ -19769,8 +19769,8 @@ CapsuleCollider:
   m_Radius: 0.8
   m_Height: 0.8
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0.1}
---- !u!114 &5795984674561646900
+  m_Center: {x: 0, y: 0, z: 0.03}
+--- !u!114 &-2256191820179117901
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19779,12 +19779,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3634178657488094669}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5d96cdfcce46b74ba129b53309d16c5, type: 3}
+  m_Script: {fileID: 11500000, guid: adf0aa51393764a4a83dc576b3b949da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 30
-  timer: 0
-  accuracy: 95
-  collided: 0
-  trails:
-  - {fileID: 3632877438483030917}

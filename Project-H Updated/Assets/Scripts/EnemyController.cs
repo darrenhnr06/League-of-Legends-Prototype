@@ -56,6 +56,8 @@ public class EnemyController : MonoBehaviour
     public IEnumerator DeactivateEnemy()
     {
         GetComponentInChildren<SkinnedMeshRenderer>().enabled = false;
+        this.GetComponent<Animator>().enabled = false;
+
         yield return new WaitForSeconds(0.5f);
         //this.gameObject.SetActive(false);
         healthBar.transform.parent.parent.parent.gameObject.SetActive(false);
